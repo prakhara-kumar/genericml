@@ -1,2 +1,2 @@
 ## END TO End Machine Learning Project
-This is description or instructions
+This is description/instructions part 
