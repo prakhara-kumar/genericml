@@ -1,5 +1,9 @@
+#Commenting -e. since every time we write pip install, we don't want to build package again and again
 numpy
 pandas
 matplotlib
 seaborn
--e.
+scikit-learn
+catboost
+xgboost
+#-e.

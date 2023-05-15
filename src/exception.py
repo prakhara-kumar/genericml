@@ -4,7 +4,8 @@ err_details will be present inside sys
 """
 
 import sys
-import logging
+from src.logger import logging
+""" Importing from logger file in here to check if logging is working which is commented at last main one """
 
 def error_message_detail(error, err_details:sys):
 
@@ -32,14 +33,14 @@ class CustomException(Exception):
         """ return super().__str__() """
 
 
-""" 
-if __name__ =='__main__':
+
+""" if __name__ =='__main__':
 
     try:
         a = 1/0
     except Exception as e:
         logging.info("Divide by zero error")
         raise CustomException(e, sys) 
-"""
+ """
     
     
